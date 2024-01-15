@@ -1,0 +1,2 @@
+require("mfauch")
+require("adonis")
