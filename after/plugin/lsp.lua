@@ -12,7 +12,6 @@ require("mason-lspconfig").setup({
 		"eslint",
 		"lua_ls",
 		"pylsp",
-		"prettier",
 	},
 	handlers = {
 		lsp.default_setup,
