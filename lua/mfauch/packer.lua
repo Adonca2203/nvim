@@ -47,6 +47,10 @@ return require("packer").startup(function(use)
 		}),
 		-- Formatter
 		use("mhartington/formatter.nvim"),
+
+    -- Clipboard copy
+    use {'ojroques/nvim-osc52'},
+
 		use("jose-elias-alvarez/null-ls.nvim"),
 		-- Tabline
 		use({
