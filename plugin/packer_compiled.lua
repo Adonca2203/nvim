@@ -138,7 +138,7 @@ _G.packer_plugins = {
     url = "https://github.com/prichrd/netrw.nvim"
   },
   ["nice-reference.nvim"] = {
-    config = { "\27LJ\2\n©\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\16auto_choose\1\15max_height\3\n\14max_width\3x\rwinblend\3\0\vborder\frounded\bcol\3\0\brow\3\1\rrelative\vcursor\vanchor\aNW\nsetup\19nice-reference\frequire\0" },
+    config = { "\27LJ\2\n©\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\vborder\frounded\bcol\3\0\brow\3\1\rrelative\vcursor\vanchor\aNW\16auto_choose\1\15max_height\3\n\14max_width\3x\rwinblend\3\0\nsetup\19nice-reference\frequire\0" },
     loaded = true,
     path = "/home/toshi/.local/share/nvim/site/pack/packer/start/nice-reference.nvim",
     url = "https://github.com/wiliamks/nice-reference.nvim"
@@ -190,7 +190,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["tabline.nvim"] = {
-    config = { "\27LJ\2\n…\4\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0Š\1\t\t\tset guioptions-=e \" Use showtabline in gui vim\n\t\t\tset sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\t\t\t\bcmd\bvim\foptions\25component_separators\1\3\0\0\bî‚±\bî‚³\23section_separators\1\0\n\18modified_icon\ax \23show_filename_only\2\15show_bufnr\1\18show_devicons\2\21show_tabs_always\2\27max_bufferline_percent\3B\25component_separators\0\23section_separators\0\19show_tabs_only\1\20modified_italic\1\1\3\0\0\bî‚°\bî‚²\1\0\2\foptions\0\venable\2\nsetup\ftabline\frequire\0" },
+    config = { "\27LJ\2\n…\4\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0Š\1\t\t\tset guioptions-=e \" Use showtabline in gui vim\n\t\t\tset sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\t\t\t\bcmd\bvim\foptions\25component_separators\1\3\0\0\bî‚±\bî‚³\23section_separators\1\0\n\25component_separators\0\23section_separators\0\19show_tabs_only\1\20modified_italic\1\18modified_icon\ax \23show_filename_only\2\15show_bufnr\1\18show_devicons\2\21show_tabs_always\2\27max_bufferline_percent\3B\1\3\0\0\bî‚°\bî‚²\1\0\2\foptions\0\venable\2\nsetup\ftabline\frequire\0" },
     loaded = true,
     path = "/home/toshi/.local/share/nvim/site/pack/packer/start/tabline.nvim",
     url = "https://github.com/kdheepak/tabline.nvim"
@@ -213,26 +213,26 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nice-reference.nvim
-time([[Config for nice-reference.nvim]], true)
-try_loadstring("\27LJ\2\n©\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\16auto_choose\1\15max_height\3\n\14max_width\3x\rwinblend\3\0\vborder\frounded\bcol\3\0\brow\3\1\rrelative\vcursor\vanchor\aNW\nsetup\19nice-reference\frequire\0", "config", "nice-reference.nvim")
-time([[Config for nice-reference.nvim]], false)
--- Config for: Comment.nvim
-time([[Config for Comment.nvim]], true)
-try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
-time([[Config for Comment.nvim]], false)
--- Config for: netrw.nvim
-time([[Config for netrw.nvim]], true)
-try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nnetrw\frequire\0", "config", "netrw.nvim")
-time([[Config for netrw.nvim]], false)
 -- Config for: tabline.nvim
 time([[Config for tabline.nvim]], true)
-try_loadstring("\27LJ\2\n…\4\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0Š\1\t\t\tset guioptions-=e \" Use showtabline in gui vim\n\t\t\tset sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\t\t\t\bcmd\bvim\foptions\25component_separators\1\3\0\0\bî‚±\bî‚³\23section_separators\1\0\n\18modified_icon\ax \23show_filename_only\2\15show_bufnr\1\18show_devicons\2\21show_tabs_always\2\27max_bufferline_percent\3B\25component_separators\0\23section_separators\0\19show_tabs_only\1\20modified_italic\1\1\3\0\0\bî‚°\bî‚²\1\0\2\foptions\0\venable\2\nsetup\ftabline\frequire\0", "config", "tabline.nvim")
+try_loadstring("\27LJ\2\n…\4\0\0\5\0\r\0\0176\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\5\0005\4\4\0=\4\6\0035\4\a\0=\4\b\3=\3\t\2B\0\2\0016\0\n\0009\0\v\0'\2\f\0B\0\2\1K\0\1\0Š\1\t\t\tset guioptions-=e \" Use showtabline in gui vim\n\t\t\tset sessionoptions+=tabpages,globals \" store tabpages and globals in session\n\t\t\t\bcmd\bvim\foptions\25component_separators\1\3\0\0\bî‚±\bî‚³\23section_separators\1\0\n\25component_separators\0\23section_separators\0\19show_tabs_only\1\20modified_italic\1\18modified_icon\ax \23show_filename_only\2\15show_bufnr\1\18show_devicons\2\21show_tabs_always\2\27max_bufferline_percent\3B\1\3\0\0\bî‚°\bî‚²\1\0\2\foptions\0\venable\2\nsetup\ftabline\frequire\0", "config", "tabline.nvim")
 time([[Config for tabline.nvim]], false)
+-- Config for: nice-reference.nvim
+time([[Config for nice-reference.nvim]], true)
+try_loadstring("\27LJ\2\n©\1\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\t\vborder\frounded\bcol\3\0\brow\3\1\rrelative\vcursor\vanchor\aNW\16auto_choose\1\15max_height\3\n\14max_width\3x\rwinblend\3\0\nsetup\19nice-reference\frequire\0", "config", "nice-reference.nvim")
+time([[Config for nice-reference.nvim]], false)
 -- Config for: goto-preview
 time([[Config for goto-preview]], true)
 try_loadstring("\27LJ\2\nR\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\vheight\3\25\nwidth\3d\nsetup\17goto-preview\frequire\0", "config", "goto-preview")
 time([[Config for goto-preview]], false)
+-- Config for: netrw.nvim
+time([[Config for netrw.nvim]], true)
+try_loadstring("\27LJ\2\n3\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\nnetrw\frequire\0", "config", "netrw.nvim")
+time([[Config for netrw.nvim]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+time([[Config for Comment.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

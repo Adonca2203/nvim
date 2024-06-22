@@ -10,5 +10,8 @@ require("formatter").setup({
 		cs = {
 			require("formatter.filetypes.cs").csharpier,
 		},
+    rust = {
+      require("formatter.filetypes.rust").rustfmt,
+    }
 	},
 })
