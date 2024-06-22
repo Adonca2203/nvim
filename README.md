@@ -9,7 +9,6 @@ Before you download this make sure your system has the following:
 5. [Stylua](https://github.com/JohnnyMorganz/StyLua)
 6. [Nerd-Fonts](https://github.com/ryanoasis/nerd-fonts)
 7. [ripgrep](https://github.com/BurntSushi/ripgrep)
-8. [Packer](https://github.com/wbthomason/packer.nvim)
 
 ## Getting Started
 Once you have installed the above pre-requisites all you need to do is
