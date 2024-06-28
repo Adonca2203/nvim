@@ -23,3 +23,14 @@ cd nvim
 3. In Normal Mode, type `:PackerSync` and hit Enter. This will download all the dependencies needed
 4. Quit out of NVIM (`:q`)
 5. Reopen NVIM and you should be all set
+
+## Formatters
+This config uses [formatter.nvim](https://github.com/mhartington/formatter.nvim) for formatting.
+Currently I have the following formatters:
+1. lua via [stylua](https://github.com/JohnnyMorganz/StyLua)
+2. c-sharp via [csharpier](https://csharpier.com/)
+3. rust via [rustfmt](https://github.com/rust-lang/rustfmt)
+4. python via black `python3 -m pip install black`
+
+## Usage
+When in a file for the above file types you can simply do `:Format` or `:FormatWrite` while in Normal mode to format or format + write the respectively
