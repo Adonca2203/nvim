@@ -31,3 +31,5 @@ vim.keymap.set("n", "<leader>l", function() vim.cmd.wincmd "l" end)
 vim.keymap.set("n", "<leader>h", function() vim.cmd.wincmd "h" end)
 vim.keymap.set("n", "<leader>j", function() vim.cmd.wincmd "j" end)
 vim.keymap.set("n", "<leader>k", function() vim.cmd.wincmd "k" end)
+
+vim.keymap.set("v", "<leader>ys", '"+y')

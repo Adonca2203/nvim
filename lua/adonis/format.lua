@@ -10,8 +10,14 @@ require("formatter").setup({
 		cs = {
 			require("formatter.filetypes.cs").csharpier,
 		},
-    rust = {
-      require("formatter.filetypes.rust").rustfmt,
-    }
+		rust = {
+			require("formatter.filetypes.rust").rustfmt,
+		},
+		python = {
+			require("formatter.filetypes.python").black,
+		},
 	},
 })
+
+-- vim.opt.clipboard = "unnamedplus"
+vim.api.nvim_set_option("clipboard", "unnamed")

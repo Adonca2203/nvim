@@ -16,3 +16,6 @@ end)
 vim.g.floaterm_width = 0.8
 vim.g.floaterm_height = 0.8
 vim.g.floaterm_position = "center"
+
+-- Switch to normal mode in terminal
+vim.keymap.set("t", "<C-q>", "<C-\\><C-n>")
