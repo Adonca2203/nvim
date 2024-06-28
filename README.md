@@ -33,4 +33,4 @@ Currently I have the following formatters:
 4. python via black `python3 -m pip install black`
 
 ## Usage
-When in a file for the above file types you can simply do `:Format` or `:FormatWrite` while in Normal mode to format or format + write the respectively
+When in a file for the above file types you can simply do `:Format` or `:FormatWrite` while in Normal mode to format or format + write the file respectively
