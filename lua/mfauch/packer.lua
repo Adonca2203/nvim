@@ -19,6 +19,7 @@ return require("packer").startup(function(use)
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 
 	-- LSP
+	use("mfussenegger/nvim-jdtls")
 	use({
 		"VonHeikemen/lsp-zero.nvim",
 		branch = "v3.x",
@@ -48,8 +49,8 @@ return require("packer").startup(function(use)
 		-- Formatter
 		use("mhartington/formatter.nvim"),
 
-    -- Clipboard copy
-    use {'ojroques/nvim-osc52'},
+		-- Clipboard copy
+		use({ "ojroques/nvim-osc52" }),
 
 		use("jose-elias-alvarez/null-ls.nvim"),
 		-- Tabline
