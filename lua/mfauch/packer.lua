@@ -14,9 +14,20 @@ return require("packer").startup(function(use)
 	-- Color Schemes
 	use("navarasu/onedark.nvim")
 	use("rebelot/kanagawa.nvim")
+	use("catppuccin/nvim")
 
 	-- TreeSitter
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
+	use("stevearc/aerial.nvim")
+
+	require("aerial").setup({
+		layout = {
+			default_direction = "prefer_left",
+			max_width = 0.25,
+			width = 0.25,
+			min_width = 0.10,
+		},
+	})
 
 	-- LSP
 	use("mfussenegger/nvim-jdtls")
